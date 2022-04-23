@@ -21,9 +21,3 @@ echo "Hello friends!"
 echo "Follow great programmers."
 echo "I look up to Linux Torvalds."
 ```
-###### Table showing skills and Years of experience.
-|Skill  |   Years|
-|-------|--------|
-|Java   | 2      |
-|C      | 1      |
-|python | 2      |
