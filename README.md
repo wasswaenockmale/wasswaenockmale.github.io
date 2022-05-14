@@ -21,5 +21,4 @@ To all developers, Let the code you write speak for you.
 #!/usr/bin/bash
 echo "Hello friends!"
 echo "Follow great programmers."
-echo "I look up to Linux Torvalds."
 ```
