@@ -11,8 +11,10 @@ This website is gonna contain elements below:-
 
 ###### The ticked checkboxes above show the elements that I have included on my portifolio web page.
 ![Headshot|200x200,20%](./img/head_shot_enock.png)
-Like Linux Torva said:
-> Stay quiet and write code. And let your code speack for you
+Slogan
+> Stay quiet and write code. And let your code speack for you. 
+
+To all developers, Let the code you write speak for you. 
 
 ### Bash code highlight.
 ```bash
