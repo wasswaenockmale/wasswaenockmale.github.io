@@ -2,6 +2,10 @@ body{
     background-color: #382525;
 }
 
+h3{
+    color: white;
+}
+
 li{
     list-style-type: none;
 }
@@ -17,6 +21,7 @@ li{
 .navbar-links{
     width: 50%;
 }
+
 ul{
     width: 100%;
     display: flex;
@@ -24,6 +29,10 @@ ul{
     justify-content: space-evenly;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 section{
     margin-left: 100px;
     margin-right: 100px;
