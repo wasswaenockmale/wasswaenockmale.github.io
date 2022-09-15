@@ -60,7 +60,7 @@ section{
     width: 40%;
     height: 80vh;
     position: relative;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .header-left{
     width: 40%;
@@ -74,7 +74,7 @@ section{
     height: inherit;
     border-radius: 5px;
     position:absolute;
-    top: 0px;
+    top: 7%;
     /* background-color: #800000; */
     line-height: 50px;
     color: white;
