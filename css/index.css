@@ -43,16 +43,31 @@ a{
 
 
 section{
-    margin-left: 100px;
+    margin-left: 7.9%;
     margin-right: 100px;
 }
 
+#home-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .header-right{
-    width: 50%;
+    width: 40%;
+    height: 40%;
     position: relative;
     border: 1px solid blue;
 }
-
+.header-left{
+    width: 40%;
+    height: 30%;
+    border: 1px solid green;
+}
 .no-background{
+    width: 100%;
+}
+
+code{
     width: 100%;
 }
