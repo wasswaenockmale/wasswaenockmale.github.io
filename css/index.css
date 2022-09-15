@@ -46,3 +46,13 @@ section{
     margin-left: 100px;
     margin-right: 100px;
 }
+
+.header-right{
+    width: 50%;
+    position: relative;
+    border: 1px solid blue;
+}
+
+.no-background{
+    width: 100%;
+}
