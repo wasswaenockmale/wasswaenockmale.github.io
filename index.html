@@ -35,10 +35,11 @@
                 <code>
                     console.log("Hello, world");
                     const hireMe = true;
-                    if(company.hasOpenRole("developer role")){
-                        console.log(hireMe)
+                    if(company.hasOpenRole("developer role") && hireMe==true){
+                        console.log("Hire this passionate developer");
                     }{
-                        console.log("Let me train with you.")
+                        console.log("Let me train with you.");
+                        hireMe = false;
                     }
                 </code>
             </div>
