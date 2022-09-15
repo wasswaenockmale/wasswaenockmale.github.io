@@ -115,3 +115,22 @@ section{
     height: inherit;
     margin-left: 100px;
 }
+
+#project{
+    width: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 60vh;
+    padding: 50px;
+}
+
+.projects{
+    width: 30%;
+    background-color: #800000;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
