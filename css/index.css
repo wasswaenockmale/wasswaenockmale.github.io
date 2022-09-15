@@ -85,7 +85,7 @@ section{
     height: 100%;
 }
 
-/* #aboutme{
+#aboutme{
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -111,4 +111,4 @@ section{
     width: 60%;
     height: inherit;
     margin-left: 25%;
-} */
+}
