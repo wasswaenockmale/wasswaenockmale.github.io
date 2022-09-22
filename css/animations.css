@@ -1,8 +1,10 @@
 @keyframes example{
     0%{background-color: #800000;}
-    25%{background-color: rgb(2, 2, 39);}
-    50%{background-color: black;}
-    100%{background-color: white;}
+    25%{background-color: #800000}
+    50%{background-color: rgb(2, 2, 39);}
+    75%{background-color: black;}
+    100%{background-color: black;}
+
 }
 
 body{
@@ -27,4 +29,7 @@ body{
 hr{
     animation-name: hr_animation;
     animation-duration: 10s;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-timing-function: ease;
 }
