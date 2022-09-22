@@ -1,0 +1,11 @@
+@keyframes example{
+    0%{background-color: #800000;}
+    25%{background-color: rgb(2, 2, 39);}
+    50%{background-color: black;}
+    100%{background-color: white;}
+}
+
+body{
+    animation-name: example;
+    animation-duration: 20s;
+}
