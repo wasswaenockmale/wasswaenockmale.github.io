@@ -21,12 +21,16 @@ hr{
 }
 
 /*The overflow hidden and the width: 0 makes the words disappear.*/
-.header-left>p{
+.type-first{
     overflow: hidden;
     width: 0;
-    letter-spacing: 1.5em;
+    letter-spacing: 0.1em;
+    animation: typewriter 1s steps(10,end) forwards;
+    border-right: 2px solid #800000;
+    /* background-color: white; */
 }
 
 @keyframes typewriter{
-
+    from{width: 0%;}
+    to{width: 20%;}
 }
