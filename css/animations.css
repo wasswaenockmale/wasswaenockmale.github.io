@@ -13,10 +13,10 @@
 }
 
 hr{
+    width: 100%;
     position: absolute;
     left: 0px;
     animation-name: hr_animation;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-direction: forward;
-    animation-fill-mode: none;
 }
