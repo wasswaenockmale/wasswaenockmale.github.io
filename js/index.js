@@ -24,7 +24,7 @@ function typeText(str){
                 letter_count++;
             }
         }
-    },150)
+    },200)
     // Also, create a button tag
     const btn = document.createElement('button');
     btn.textContent = "HIRE ME"
