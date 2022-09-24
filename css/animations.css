@@ -18,5 +18,5 @@ hr{
     left: 0px;
     animation-name: hr_animation;
     animation-duration: 5s;
-    animation-direction: forward;
+    animation-direction: normal;
 }
