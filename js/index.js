@@ -11,10 +11,15 @@ function typeText(str){
     div.appendChild(p)
     let letter_count = 0;
     const len = word.length;
+    const btn = document.createElement('button');
+    div.appendChild(btn)
+    btn.focus()
     setInterval(()=>{
         const reg = /[.,]/
         if(letter_count === len){
+            btn.textContent = "HIRE ME"
             clearInterval()
+            // Also, create a button tag
         }else{
             if(reg.test(str[letter_count])){
                 p.innerHTML += str[letter_count] + "<br>"
@@ -24,17 +29,11 @@ function typeText(str){
                 letter_count++;
             }
         }
-    },200)
-    // Also, create a button tag
-    const btn = document.createElement('button');
-    btn.textContent = "HIRE ME"
-
+    },100)
     // also, create an hr tag
     const hr = document.createElement('hr')
     // now try to put the content to the p tag.
-
     // p.innerHTML = str
-    div.appendChild(btn)
     div.appendChild(hr);
 }
 
