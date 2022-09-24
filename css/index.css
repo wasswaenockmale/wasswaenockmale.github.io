@@ -67,6 +67,7 @@ section{
     position: relative;
 }
 .header-left{
+    position: relative;
     width: 50%;
     height: 80vh;
     color: white;
