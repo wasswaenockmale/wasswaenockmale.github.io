@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(2, 2, 39);
-    /* background-color: black; */
+    /* background-color: rgb(2, 2, 39); */
+    background-color: black;
     /* background-color: #800000; */
 }
 
@@ -110,11 +110,12 @@ section{
 .about-left{
     width: 40%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(2, 2, 39);
     position: relative;
 }
 .about-right{
-    width: 30%;
+    width: 40%;
     background-color: rgb(2, 2, 39);
     color: white;
     border-radius: 5px;
@@ -165,7 +166,8 @@ footer{
 }
 
 .hide{
-    background-color: rgb(2, 2, 39);
-    color:rgb(2, 2, 39);
+    /* background-color: rgb(2, 2, 39); */
+    background-color: black;
+    /* color:rgb(2, 2, 39); */
     border: none;
 }
