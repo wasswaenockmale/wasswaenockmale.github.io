@@ -163,3 +163,9 @@ footer{
     width: 30px;
     height: 30px;
 }
+
+.hide{
+    background-color: rgb(2, 2, 39);
+    color:rgb(2, 2, 39);
+    border: none;
+}
