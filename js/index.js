@@ -6,6 +6,7 @@ function typeText(str){
     
     // now, create a p tag.
     const p = document.createElement('p')
+    // p.innerHTML = "|"
 
     // I have added the p tag to the div header-left.
     div.appendChild(p)
@@ -16,11 +17,10 @@ function typeText(str){
     btn.textContent = "HIRE ME";
     div.append(btn)
     btn.classList.add("hide")
-    // setTimeout(()=>{
 
-    // },(100*len))
     setInterval(()=>{
         const reg = /[.,]/
+        const capital = /[A-Z]/
         if(letter_count === len){
             btn.classList.remove("hide");
             clearInterval()
