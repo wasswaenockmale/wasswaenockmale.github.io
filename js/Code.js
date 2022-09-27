@@ -17,19 +17,19 @@ async function codeAnimation(codes,element,word, callback){
 
     const bol = await callback(word)
 
-    if(bol === true){
+    if(bol === "true"){
         const len = codes.length;
-    let code_count = 0;
-    setInterval(()=>{
-        if(code_count === len){
-            clearInterval()
-        }else{
-            element.innerHTML += codes[code_count]
-            code_count++
-        }
-    }, 100);
+        let code_count = 0;
+        setInterval(()=>{
+            if(code_count === len){
+                clearInterval()
+            }else{
+                element.innerHTML += codes[code_count]
+                code_count++
+            }
+        }, 100);
     }else{
-        code.innerHTML += "It doesn't work"
+        code.innerHTML += bol
     }
 }
 

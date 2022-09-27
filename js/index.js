@@ -23,8 +23,8 @@ function typeText(str){
         // const capital = /[A-Z]/
         if(letter_count === len){
             btn.classList.remove("hide");
-            // clearInterval()
-            return true;
+            return;
+            clearInterval()
         }else{
             if(reg.test(str[letter_count])){
                 p.innerHTML += str[letter_count] + "<br>"
