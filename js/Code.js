@@ -1,4 +1,7 @@
+
 const cod = document.getElementById("code");
+const word = "Hi, I'm Wasswa Enock Male. A software developer. MERN Stack."
+
 
 let word_code = `console.log("Hello, world");
 const hireMe = true; 
@@ -21,6 +24,8 @@ function codeAnimation(codes,element){
             code_count++
         }
     }, 100);
+
+    return;
 }
 
 codeAnimation(word_code,cod)
