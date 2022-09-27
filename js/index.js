@@ -20,7 +20,7 @@ function typeText(str){
 
     setInterval(()=>{
         const reg = /[.,]/
-        const capital = /[A-Z]/
+        // const capital = /[A-Z]/
         if(letter_count === len){
             btn.classList.remove("hide");
             clearInterval()
@@ -37,6 +37,7 @@ function typeText(str){
     // also, create an hr tag
     const hr = document.createElement('hr');
     div.appendChild(hr);
+    return;
 }
 
 typeText(word)
