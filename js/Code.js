@@ -15,6 +15,7 @@ if(company.hasOpenRole("developer role") && hireMe==true){
 async function codeAnimation(codes,element,word, callback){
     // Now, I have to write code.
 
+    // console.log("For sure")
     const bol = await callback(word)
 
     if(bol === "true"){
