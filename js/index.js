@@ -23,7 +23,6 @@ function typeText(str){
         // const capital = /[A-Z]/
         if(letter_count === len){
             btn.classList.remove("hide");
-            return true;
             clearInterval()
         }else{
             if(reg.test(str[letter_count])){
@@ -38,6 +37,7 @@ function typeText(str){
     // also, create an hr tag
     const hr = document.createElement('hr');
     div.appendChild(hr);
+    return true
 }
 
 // console.log(typeText(word))

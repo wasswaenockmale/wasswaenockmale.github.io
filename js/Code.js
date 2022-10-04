@@ -18,7 +18,7 @@ async function codeAnimation(codes,element,word, callback){
     // console.log("For sure")
     const bol = await callback(word)
 
-    if(bol === "true"){
+    if(bol === true){
         const len = codes.length;
         let code_count = 0;
         setInterval(()=>{
