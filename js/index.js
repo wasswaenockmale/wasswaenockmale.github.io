@@ -23,7 +23,7 @@ function typeText(str){
         // const capital = /[A-Z]/
         if(letter_count === len){
             btn.classList.remove("hide");
-            return;
+            return true;
             clearInterval()
         }else{
             if(reg.test(str[letter_count])){
