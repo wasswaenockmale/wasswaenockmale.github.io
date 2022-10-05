@@ -200,9 +200,10 @@ button{
     color: white;
 }
 button:hover{
-    box-shadow: -5px 5px 1px skyblue;
-    width: 15.5%;
-    height: 5.5%;
+    outline: 3px solid rgb(47, 47, 243);
+    background-color: black;
+    outline-offset: 5px;
+    font-size: 1rem;
 }
 input{
     padding: 10px;
