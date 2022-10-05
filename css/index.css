@@ -120,12 +120,17 @@ section{
 .about-right{
     width: 40%;
     background-color: rgb(2, 2, 39);
-    color: white;
+    /* color: white; */
     border-radius: 5px;
     padding: 20px;
     text-align: center;
 }
 
+.about-right>p{
+    color: white;
+    opacity: .6;
+    font-size: 1.1em;
+}
 .about-left img{
     width: 60%;
     height: inherit;
@@ -209,3 +214,25 @@ input::placeholder{
     color: black;
 }
 
+
+/* Here are the styles for the about-nav */
+.about-right-container{
+    background-color: white;
+    height: 20em;
+    border-radius: 0.39em;
+}
+
+.about-nav{
+    background-color: black;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .about-nav>ul>li>a{
+    text-decoration: underline rgb(2, 2, 39) 3px;
+    border-right: 3px solid rgb(2, 2, 39);
+} */
