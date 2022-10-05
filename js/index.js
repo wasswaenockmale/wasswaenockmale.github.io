@@ -16,13 +16,13 @@ function typeText(str){
     const btn = document.createElement("button");
     btn.textContent = "HIRE ME";
     div.append(btn)
-    btn.classList.add("hide")
+    btn.style.visibility="hidden"
 
     setInterval(()=>{
         const reg = /[.,]/
         // const capital = /[A-Z]/
         if(letter_count === len){
-            btn.classList.remove("hide");
+            btn.style.visibility ="visible"
             clearInterval()
         }else{
             if(reg.test(str[letter_count])){
