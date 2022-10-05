@@ -6,7 +6,7 @@ let word_code = `console.log("Hello, world");
 const hireMe = true; 
 if(company.hasOpenRole("developer role") && hireMe==true){ 
     console.log("Hire this passionate developer");
-}{
+}else{
     console.log("Let me train with you.");
     hireMe = false;
 }`
@@ -25,8 +25,16 @@ async function codeAnimation(codes,element,word, callback){
             if(code_count === len){
                 clearInterval()
             }else{
-                element.innerHTML += codes[code_count]
-                code_count++
+                const reg = /[;{]/
+                if(reg.test(codes[code_count])){
+                    element.innerHTML += codes[code_count] + "<br>"
+                    code_count++
+                }else{
+                    element.innerHTML += codes[code_count]
+                    code_count++
+                }
+                // element.innerHTML += codes[code_count]
+                // code_count++
             }
         }, 100);
     }else{
