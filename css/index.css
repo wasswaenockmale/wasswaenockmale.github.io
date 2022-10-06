@@ -62,7 +62,8 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
+    /* margin-top: 200px; */
     /* border: 1px solid blue; */
 }
 
