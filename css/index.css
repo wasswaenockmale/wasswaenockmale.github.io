@@ -237,12 +237,6 @@ input::placeholder{
     align-items: center;
 }
 
-/* .about-nav>ul>li>a{
-    text-decoration: underline rgb(2, 2, 39) 3px;
-    border-right: 3px solid rgb(2, 2, 39);
-} */
-
-
 #education, #skills ,#experience{
     display: none;
 }
