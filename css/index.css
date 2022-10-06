@@ -1,6 +1,7 @@
 body{
     /* background-color: rgb(2, 2, 39); */
     background-color: black;
+    /* height: 100vh; */
     /* background-color: #800000; */
 }
 
@@ -23,6 +24,7 @@ li{
     position: sticky;
     top: 0px;
     margin-left: 100px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,6 +63,7 @@ section{
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
+    /* border: 1px solid blue; */
 }
 
 .header-right{
@@ -237,3 +240,8 @@ input::placeholder{
     text-decoration: underline rgb(2, 2, 39) 3px;
     border-right: 3px solid rgb(2, 2, 39);
 } */
+
+
+#education, #skills ,#experience{
+    display: none;
+}
