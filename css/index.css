@@ -223,7 +223,8 @@ input::placeholder{
 /* Here are the styles for the about-nav */
 .about-right-container{
     background-color: white;
-    height: 20em;
+    /* height:15em; */
+    height: auto;
     border-radius: 0.39em;
 }
 
@@ -235,8 +236,4 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#education, #skills ,#experience{
-    display: none;
 }
