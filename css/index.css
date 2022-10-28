@@ -244,6 +244,8 @@ input::placeholder{
 .overlay-container{
     width: 50%;
     height: 150px;
+    display: flex;
+    justify-content: center;
     border-radius: 50%;
     background-color: red;
 }
