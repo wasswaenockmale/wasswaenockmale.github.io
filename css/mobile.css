@@ -6,11 +6,11 @@
 
 @media (max-width: 400px) {
     .navbar{
-        width: 90%;
+        margin: 0;
+        width: 100%;
         background-color: red;
     }
     .three-dashed-icon{
-        padding: 2px;
         display: flex;
         border: 1px solid grey;
     }
@@ -18,12 +18,53 @@
         display: none;
     }
 
-    .navbar-links-ul{
-        display: none;
-    }
-
     hr{
         width: 2.5em;
         background-color: white;
+    }
+    #home-section{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .header-left{
+        height: 500px;
+        border: 1px solid yellow;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .header-right{
+        display: none;
+    }
+
+    button{
+        width: 50%;
+    
+    }
+
+    .about-left{
+        display: none;
+    }
+    .about-right{
+        width: 100%;
+        padding: 5px;
+    }
+    #project{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    footer{
+        width: 100%;
+
     }
 }
