@@ -1,0 +1,29 @@
+.three-dashed-icon{
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+}
+
+@media (max-width: 400px) {
+    .navbar{
+        width: 90%;
+        background-color: red;
+    }
+    .three-dashed-icon{
+        padding: 2px;
+        display: flex;
+        border: 1px solid grey;
+    }
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links-ul{
+        display: none;
+    }
+
+    hr{
+        width: 2.5em;
+        background-color: white;
+    }
+}
