@@ -1,10 +1,14 @@
 .three-dashed-icon{
     display: none;
     flex-direction: column;
-    padding: 5px;
+    padding: 3px;
 }
 
-@media (max-width: 400px) {
+.three-dashed-icon>hr{
+    margin-bottom: 1.5px;
+}
+
+@media (max-width: 412px) {
     section{
         margin: 0px;
     }
@@ -15,6 +19,7 @@
     .three-dashed-icon{
         display: flex;
         border: 1px solid grey;
+        height: 40px;
     }
     .navbar-links{
         display: none;
@@ -60,9 +65,12 @@
         padding: 5px;
     }
     #project{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        height: auto;
+        padding: 5px;
     }
 
     .projects{
@@ -73,7 +81,9 @@
     }
 
     footer{
-        width: 100%;
-
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
     }
 }
