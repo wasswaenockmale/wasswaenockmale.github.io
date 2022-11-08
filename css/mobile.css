@@ -39,12 +39,12 @@
         padding: 5px;
         margin: 0px;
         height: auto;
-        width: 90%;
+        width: 95%;
     }
     .header-left{
         margin: 0px;
         /* border: 1px solid yellow; */
-        width: 90%;
+        width: 95%;
         height: auto;
         font-size: 1.5em;
     }
@@ -65,7 +65,7 @@
         padding: 5px;
     }
     #project{
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         margin: 0px;
@@ -81,9 +81,25 @@
     }
 
     footer{
-        width: 90%;
+        width: 95%;
+        margin-left: 2%;
         display: flex;
         flex-direction: column;
         padding: 5px;
+        height: auto;
+    }
+    .send-message{
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    input{
+        margin: 10px;
     }
 }
