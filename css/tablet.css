@@ -1,14 +1,17 @@
-@media screen and (max-width:912px) {
+@media (max-width:912px) {
     .img-b{
         display: none;
     }
     .navbar{
         width: 90%;
         margin: 1.2em;
+        /* border: 1px solid yellow; */
     }
 
     .header-right{
         height: auto;
+        width: 80%;
+        /* border: 1px solid red; */
     }
     
     .header-left{
@@ -26,10 +29,9 @@
     #aboutme{
         height: auto;
         /* border: 1px solid red; */
-        width: 70%;
     }
     .about-right{
-        width: 100%;
+        width: 90%;
     }
     .about-left{
         display: none;
@@ -47,7 +49,7 @@
     }
 
     #project{
-        width: 70%;
+        width: 90%;
         /* border: 1px solid red; */
     }
 }
@@ -114,7 +116,7 @@
     #aboutme{
         height: auto;
         /* border: 1px solid red; */
-        width: 70%;
+        width: 90%;
     }
     .about-right{
         width: 100%;
@@ -135,20 +137,23 @@
     }
 
     #project{
-        width: 70%;
+        width: 90%;
         /* border: 1px solid red; */
     }
 
+    .projects{
+        width: 100%;
+    }
     button{
         width: 40%;
         height: 10%;
     }
     footer{
-        width: 70%;
+        width: 90%;
         height: auto;
         margin: 0.5em;
         padding: 5px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .hashnode, .twitter, .github, .linkedin{
         width: 30px;
