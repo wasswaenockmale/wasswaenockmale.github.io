@@ -4,7 +4,9 @@ body{
     /* height: 100vh; */
     /* background-color: #800000; */
 }
-
+html{
+    scroll-behavior: smooth;
+}
 h3{
     color: white;
 }
