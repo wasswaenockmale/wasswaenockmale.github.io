@@ -6,13 +6,11 @@
         width: 90%;
         margin: 1.2em;
     }
-    /* .behind-image{
-        height: auto;
-        line-height: 25px;
-    } */
+
     .header-right{
         height: auto;
     }
+    
     .header-left{
         height: auto;
     }
@@ -52,11 +50,6 @@
         width: 70%;
         /* border: 1px solid red; */
     }
-
-    /* button{
-        width: 40%;
-        height: 10%;
-    } */
 }
 
 @media (max-width:1024px) {
