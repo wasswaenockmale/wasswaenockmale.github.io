@@ -13,8 +13,9 @@
         margin: 0px;
     }
     .navbar{
-        margin: 0;
         width: 90%;
+        height: auto;
+        font-size: 1em;
     }
     .three-dashed-icon{
         display: flex;
@@ -30,23 +31,21 @@
         background-color: white;
     }
     #home-section{
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        padding: 5px;
+        border: 1px solid red; */
     }
 
     #aboutme{
         padding: 5px;
-        margin: 0px;
+        margin: 1.2em;
         height: auto;
         width: 95%;
+        /* border:1px solid green; */
     }
     .header-left{
-        margin: 0px;
-        /* border: 1px solid yellow; */
-        width: 95%;
-        height: auto;
-        font-size: 1.5em;
+        padding: 5px;
+        width: auto;
     }
     .header-right{
         display: none;
@@ -102,8 +101,5 @@
     input{
         margin: 10px;
         padding: 5px;
-    }
-    .follow{
-        
     }
 }
