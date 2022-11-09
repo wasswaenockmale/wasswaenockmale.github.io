@@ -58,8 +58,36 @@
     }
 }
 
+.three-dashed-icon{
+    display: none;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.three-dashed-icon>hr{
+    margin-bottom: 1.5px;
+}
+
 @media (max-width:540px) {
 
+    .navbar{
+        width: 90%;
+        height: auto;
+        font-size: 1em;
+    }
+    .three-dashed-icon{
+        display: flex;
+        border: 1px solid grey;
+        height: 40px;
+    }
+    .navbar-links{
+        display: none;
+    }
+
+    .icon{
+        width: 2.5em;
+        background-color: white;
+    }
     .navbar{
         width: 90%;
         margin: 1.2em;
@@ -125,5 +153,11 @@
         width: 85%;
         height: auto;
         margin: 0.5em;
+    }
+}
+
+@media (min-width:920px){
+    .image-size{
+        display: none;
     }
 }
