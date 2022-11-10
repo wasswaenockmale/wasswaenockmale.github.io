@@ -181,7 +181,7 @@
     }
 }
 
-@media (min-width:600px){
+@media (min-width:540px){
     .menu-icon{
         display: none;
     }
