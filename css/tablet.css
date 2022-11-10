@@ -180,3 +180,9 @@
         display: none;
     }
 }
+
+@media (min-width:600px){
+    .menu-icon{
+        display: none;
+    }
+}
