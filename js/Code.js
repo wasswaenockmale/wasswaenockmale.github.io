@@ -1,7 +1,6 @@
 import typeText from "./index.js";
 const cod = document.getElementById("code");
 const word = "Hi, I'm Wasswa Enock Male. A software developer. MERN Stack."
-
 let word_code = `console.log("Hello, world");
 const hireMe = true; 
 if(company.hasOpenRole("developer role") && hireMe==true){ 
@@ -14,7 +13,7 @@ if(company.hasOpenRole("developer role") && hireMe==true){
 // Trying to use the async await in my project 
 async function codeAnimation(codes,element,word, callback){
     // Now, I have to write code.
-
+    
     // console.log("For sure")
     const bol = await callback(word)
 
