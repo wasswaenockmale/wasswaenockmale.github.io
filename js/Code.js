@@ -42,3 +42,12 @@ async function codeAnimation(codes,element,word, callback){
 }
 
 codeAnimation(word_code,cod,word,typeText)
+
+// We call the two section for the menubar 
+const menu = document.querySelector(".hidden-navbar-links-ul");
+const navMenu = document.querySelector(".navbar-links-ul");
+
+menu.addEventListener('click',()=>{
+    menu.classList.toggle("active");
+    navMenu.classList.toggle("active")
+})
