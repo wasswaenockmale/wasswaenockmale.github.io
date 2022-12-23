@@ -1,4 +1,4 @@
-.three-dashed-icon{
+/* .three-dashed-icon{
     display: none;
     flex-direction: column;
     padding: 3px;
@@ -6,7 +6,7 @@
 
 .three-dashed-icon>hr{
     margin-bottom: 1.5px;
-}
+} */
 
 @media (max-width: 414px) {
     section{
@@ -17,11 +17,11 @@
         height: auto;
         font-size: 1em;
     }
-    .three-dashed-icon{
+    /* .three-dashed-icon{
         display: flex;
         border: 1px solid grey;
         height: 40px;
-    }
+    } */
     .navbar-links{
         display: none;
     }
