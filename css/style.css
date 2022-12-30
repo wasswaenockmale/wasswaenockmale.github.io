@@ -5,7 +5,7 @@
 
 .header{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(30,30,30,0.7),rgba(30,30,30,0.7)), url('./Media/images/My professional headshot.png');
+    background-image: linear-gradient(rgba(10, 10, 10, 1),rgba(10, 10, 10, 1)), url('./Media/images/My professional headshot.png');
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -20,6 +20,11 @@
     cursor: pointer;
 }
 
+.header nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -32,10 +37,10 @@
     padding: 8px 12px;
 }
 
-.nav-links ul li a{
-    color:#fff;
+.nav-links ul li{
     text-decoration: none;
-    text-transform: uppercase;
+    font-size: 1rem;
+    color: blue;
 }
 
 .nav-links ul li::after{
@@ -75,4 +80,9 @@
     position: relative;
     font-size: 15px;
     border-radius: 5px;
+}
+
+.text-section a:hover{
+    border: 1px solid blue;
+    background: blue;
 }
