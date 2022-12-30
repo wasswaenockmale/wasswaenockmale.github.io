@@ -4,203 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Enock's Portifolio</title>
-    <script src="./js/jquery-3.6.1.js"></script>
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
-    <link rel="stylesheet" href="./css/mobile.css" type="text/css">
-    <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+    <title>Wasswa Enock Male</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- NavBar  -->
-    <header>
-        <nav class="navbar" id="navbar">
-            <h3><span class="letter-E">E</span>nock</h3>
-            <!-- <div class="navbar-links"> -->
-                <ul class="navbar-links-ul">
-                    <li class="nav-item">
-                        <a href="#home-section" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#aboutme" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link">Projects</a>
-                    </li>
+    <section class="header">
+        <nav>
+            <a href="index.html">Enock</a>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href=""></a>Home</li>
+                    <li><a href=""></a>About</li>
+                    <li><a href=""></a>Skills</li>
                 </ul>
-            <!-- </div> -->
-    
-            <!-- This is the section that will actually be lost displayed by the click of the menu icon  -->
-            <div class="hidden-navbar-links-ul">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
             </div>
-            <!-- This section below is not visible on large screens but on smaller screens, its visible  -->
-            <!-- <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg> -->
-              
         </nav>
-    </header>
-
-    <!-- header-section  -->
-    <section id="home-section">
-        <div class="header-left" id="header-left">
-            <!-- <p>
-                Hi, <br>I'm Wasswa Enock Male. A software developer. MERN Stack.
-            </p>
-            <button class="">HIRE ME</button>
-            <hr> -->
-        </div>
-        <div class="header-right">
-            <div class="behind-image">
-                <code id="code">
-                    <!-- console.log("Hello, world");
-                    const hireMe = true;
-                    if(company.hasOpenRole("developer role") && hireMe==true){
-                        console.log("Hire this passionate developer");
-                    }{
-                        console.log("Let me train with you.");
-                        hireMe = false;
-                    } -->
-                </code>
-            </div>
-            <img src="./Media/images/enock_headshot_no_background.png" alt="" class="no-background img-b">
-        </div>
     </section>
-
-    <!-- about me section  -->
-    <section id="aboutme">
-        <div class="about-left">
-            <div class="behind-image"></div>
-            <img src="./Media/images/another_one_no_background.png" class="no-background" alt="">
-        </div>
-        <div class="about-right">
-            <!-- <div class="image-back"> -->
-                <img src="./Media/images/My professional headshot.png" class="no-background image-size" alt="">
-            <!-- </div> -->
-            <p>I am a possionate Junior software developer from Kampala Uganda.
-                Programming helps forcus on helping people in my society. 
-                I love sharing the skills that I always gain to also help others become better in life. 
-                And I really think, technology and more programming can be used to enhance the lives of everyone in the world.
-            </p>
-
-            <div class="about-right-container">
-                <div class="about-nav">
-                    <ul>
-                        <li><a href="#education" class="about" id="active">Education</a></li>
-                        <li><a href="#skills" class="about">Skills</a></li>
-                        <li><a href="#experience" class="about">Experiences</a></li>
-                    </ul>
-                </div>
-    
-                <div id="education" style="display:block">
-                    <p>I hold a bachelor's degree in Computer Science 
-                        from the College of computing and informatics 
-                        technology Makerere Univeristy.
-                    </p>
-                </div>
-                <div id="skills" style="display:none">
-                    <h4>Skills and Tools.</h4>
-                    <ul>
-                        <li>HTML and CSS</li>
-                        <li>Javascript</li>
-                        <li>Node</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div id="experience" style="display:none">
-                    <p>
-                        I trained at the AIR lab makerere University as a software developer in 2019.
-                        I have obtained a nano degree from the Ablestate creatives limited as a Full 
-                        Stack MERN developer.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects section  -->
-    <section id="project">
-        <div class="projects">
-            <div class="overlay-container">
-                <img src="" alt="">
-                <div class="overlay"></div>
-            </div>
-            <p>
-                Easy Park.
-                I and my final year group developed a mobile 
-                application using for android users. 
-                This was aimed at helping drivers 
-                find the nearest parking lot in thier shortest radius.
-            </p>
-        </div>
-        <div class="projects">
-            <div class="overlay-container">
-                <!-- <img src="" alt=""> -->
-                <div class="overlay"></div>
-            </div>
-            <p>
-                Portifolio Website.
-                This my personal website. It talks about my personal experiences, skills and personal.
-            </p>
-        </div>
-        <div class="projects">
-            <div class="overlay-container">
-                <img src="" alt="image with overlay" >
-                <div class="overlay">This is the image</div>
-            </div>
-            <p>
-                Easy Park.
-                I and my final year group developed a mobile 
-                application using for android users. 
-                This was aimed at helping drivers 
-                find the nearest parking lot in thier shortest radius.
-            </p>
-        </div>
-    </section>
-
-    <!-- This is the footer of my Portifolio. -->
-    <footer id="contact">
-        <div class="send-message">
-            <form action="" method="post">
-                <!-- <label for="email">Email</label> -->
-                <input type="email" placeholder="enter your email" id="email" name="email">
-                <!-- <label for="msg">Message</label> -->
-                <input type="text" placeholder="Message" id="msg" name="msg">
-                <input type="submit" name="send" id="submit" class="submit">
-            </form>
-        </div>
-        <!-- <div class="follow">
-            <h4>Follow @wasswaenockmale</h4>
-            <img src="./Media/images/twitter.svg" alt="twitter icon" class="twitter">
-            <img src="./Media/images/github-icon.svg" alt="github-icon" class="github">
-            <img src="./Media/images/hashnode-icon-svgrepo-com.svg" alt="hashnode-icon" class="hashnode">
-            <img src="./Media/images/linkedin-icon.svg" alt="LinkedIn icon" class="linkedin">
-        </div> -->
-
-        <div class="follow-section">
-            <div class="social-media-button">
-                <a href="https://twitter.com/wasswaenockmale">Twitter</a>
-                <!-- <img src="./Media/images/twitter.svg" class="twitter"> -->
-            </div>
-            <div class="social-media-button">
-                <a href="https://github.com/wasswaenockmale">Github</a>
-                <!-- <img src="./Media/images/github-icon.svg" class="github"> -->
-            </div>
-            <div class="social-media-button">
-                <a href="https://hashnode.com/@wasswaenockmale35">Hashnode</a>
-                <!-- <img src="./Media/images/hashnode-icon-svgrepo-com.svg" class="hashnode"> -->
-            </div>
-            <div class="social-media-button">
-                <a href="https://www.linkedin.com/in/wasswaenockmale/">LinkedIn</a>
-                <!-- <img src="./Media/images/linkedin-icon.svg" class="linkedin"> -->
-            </div>
-        </div>
-    </footer>
-
-    <script src="/js/index.js" defer type="module"></script>
-    <script src="/js/Code.js" defer type="module"></script>
-    <script src="/js/about.js" defer type="module"></script>
 </body>
 </html>
