@@ -86,3 +86,55 @@
     border: 1px solid blue;
     background: blue;
 }
+
+.aboutme{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.row{
+    margin-top:2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 60%;
+    margin-left: 20%;
+}
+.aboutme-col{
+    flex-basis: 44%;
+    box-sizing: border-box;
+}
+
+.headshot{
+    width: 100%;
+    height: 100%;
+}
+
+.inside-aboutme ul li{
+    list-style: none;
+}
+
+.inside-aboutme ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside-aboutme ul li a{
+    text-decoration: none;
+}
+
+.project-image{
+    flex-basis: 30%;
+}
+
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+
+
+}
