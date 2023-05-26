@@ -23,7 +23,7 @@
 .header nav a{
     text-decoration: none;
     font-size: 1.5rem;
-    color: blue;
+    color: #fff;
 }
 .nav-links{
     flex: 1;
@@ -37,17 +37,18 @@
     padding: 8px 12px;
 }
 
-.nav-links ul li{
+.nav-links ul li a{
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 1rem;
-    color: blue;
+    color: #fff;
 }
 
 .nav-links ul li::after{
     content: "";
     width: 0%;
     height: 2px;
-    background: #fff;
+    background: blue;
     margin: auto;
     display: block;
     transition: 1s;
@@ -107,6 +108,10 @@
 .aboutme-col{
     flex-basis: 44%;
     box-sizing: border-box;
+}
+
+.aboutme-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .headshot{
