@@ -1,5 +1,5 @@
 import React from 'react';
-import sumacoIcon from '/public/sumaco_icon.png'; // Add your screenshot
+import sumacoIcon from '../assets/sumaco_icon.png'; // Add your screenshot
 import visitRuboni from '../assets/sumaco-screenshot.png'
 
 const projects = [
