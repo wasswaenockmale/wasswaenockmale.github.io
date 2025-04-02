@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@theme{
+@theme {
   --font-tangerine: 'Tangerine', cursive;
   --font-poppins: 'Poppins', sans-serif;
   --font-playfair: 'Playfair Display', serif;
