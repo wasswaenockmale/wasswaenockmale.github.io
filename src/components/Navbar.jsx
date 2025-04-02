@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navbar({ showMobileMenu, setShowMobileMenu }) {
-  const sections = ['home', 'about', 'projects', /*'skills' ,*/ /*'resume',*/'testimonials', 'contact'];
+  const sections = ['home', 'about', 'projects', /*'skills' ,*/ /*'resume',*/ /*'testimonials',*/ 'contact'];
 
   return (
     <nav className="fixed z-50 w-full bg-gray-50">
