@@ -34,7 +34,7 @@ function Home() {
             </a>
           </div> */}
         </div>
-        <div className="relative">
+        <div className="relative rounded-full bg-cyan-50">
           <img
             src="/weem-512x512.png"
             alt="Enock Wasswa"

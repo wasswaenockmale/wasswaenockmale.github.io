@@ -9,6 +9,7 @@ function Contact() {
     e.preventDefault();
     setShowModal(true);
     setFormData({ name: '', email: '', message: '' });
+    console.log(formData)
     setTimeout(() => setShowModal(false), 3000);
   };
 
@@ -49,7 +50,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-poppins"
+              className="w-full bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-poppins cursor-pointer"
             >
               Send Message
             </button>

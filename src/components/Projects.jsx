@@ -19,22 +19,22 @@ const projects = [
     livelink: 'https://www.visitruboni.com/',
     githubLink: '',
   },
-  {
-    title: 'The Switch',
-    description: 'Events marketplace for Uganda, where you can find and book events, parties, and other activities happening in your area.',
-    tech: ['Bare React Native', 'Supabase', 'Typescript'],
-    image: sumacoIcon,
-    livelink: 'https://www.theswitchug.com/',
-    githubLink: 'https://github.com/wasswaenockmale/theSwitch',
-  },
-  {
-    title: 'SHMS',
-    description: 'This innovative system is designed for College schools to track, and manage student health information, ensuring students remain safe and healthy.',
-    tech: ['React', 'Redux', 'Supabase', 'Springboot', 'Typescript', 'Java'],
-    image: visitRuboni,
-    livelink: 'https://shrms.netlify.app/',
-    githubLink: '[your-github-link]',
-  },
+  // {
+  //   title: 'The Switch',
+  //   description: 'Events marketplace for Uganda, where you can find and book events, parties, and other activities happening in your area.',
+  //   tech: ['Bare React Native', 'Supabase', 'Typescript'],
+  //   image: sumacoIcon,
+  //   livelink: 'https://www.theswitchug.com/',
+  //   githubLink: 'https://github.com/wasswaenockmale/theSwitch',
+  // },
+  // {
+  //   title: 'SHMS',
+  //   description: 'This innovative system is designed for College schools to track, and manage student health information, ensuring students remain safe and healthy.',
+  //   tech: ['React', 'Redux', 'Supabase', 'Springboot', 'Typescript', 'Java'],
+  //   image: visitRuboni,
+  //   livelink: 'https://shrms.netlify.app/',
+  //   githubLink: '[your-github-link]',
+  // },
 ];
 //  It Centralized Health Records, Facilitate Monitoring and Follow-Up, Facilitate Monitoring and Follow-Up, Support Preventive Care, Enable Treatment Management, Streamline Drug Inventory Managemen
 function Projects() {
